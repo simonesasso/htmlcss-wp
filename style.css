@@ -193,51 +193,46 @@ h2:hover{
 
 
 footer{
-  /* debug */
-  height: 400px;
-  background-color: lightblue;
-  /* debug */
+  background-color: white;
   width: 90%;
   margin: auto;
 }
 .footer-section-1{
-  height: 70%;
   width: 100%;
-
 }
+
+
 .footer-section-1::after{
   content: "";
   display: table;
   clear: both;
 }
+.footer-ul{
+  list-style-type: none;
+}
+.footer-li{
+  padding: 5px 0;
+}
 .footer-div-1{
-  /* debug */
-  background-color: blue;
-  /* debug */
+
   width: 15%;
   height: 100%;
   float: left;
 }
 .footer-div-2{
-  /* debug */
-  background-color: pink;
-  /* debug */
+
   width: 15%;
   height: 100%;
   float: left;
 }
 .footer-div-3{
-  /* debug */
-  background-color: brown;
-  /* debug */
+
   width: 15%;
   height: 100%;
   float: left;
 }
 .footer-div-4{
-  /* debug */
-  background-color: dodgerblue;
-  /* debug */
+
   width: 55%;
   height: 100%;
   float: left;
@@ -253,18 +248,25 @@ footer{
   clear: both;
 }
 .footer-div-5{
-  /* debug */
-  background-color: yellow;
-  /* debug */
+  border-top: 3px solid grey;
   width: 50%;
-  height: 100%;
+  padding: 55px 5px;
   float: left;
 }
 .footer-div-6{
-  /* debug */
-  background-color: maroon;
-  /* debug */
   width: 50%;
-  height: 100%;
+  padding: 55px 5px;
   float: left;
+  border-top: 3px solid grey;
+  text-align: right;
+}
+.footer-div-0{
+  padding: 45px 10px;
+}
+.footer-div-4-0{
+  padding: 45px 20px 45px 100px;
+}
+i{
+  margin-right: 10px;
+  font-size: 35px;
 }
