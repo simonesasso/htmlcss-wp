@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  /* debug */
+  height: 120px;
+  background-color: grey;
+  /* end debug */
+  width: 90%;
+  margin: 2% auto 0;
+}
+nav{
+  /* debug */
+
+  background-color: green;
+  /* end debug */
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+li{
+  display: inline-block;
+  padding: 20px 10px;
+  font-size: 20px;
+}
+li:hover{
+  background-color: navy;
+}
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+main{
+    margin: 2% auto;
+    width: 90%;
+}
+.left{
+  /* debug
+  height: 600px;
+  background-color: pink;
+  debug */
+  width: 20%;
+  float: left;
+}
+.left-div-1{
+  /* debug */
+  height: 350px;
+  background-color: purple;
+  /* debug */
+  margin-bottom: 5%;
+}
+.left-div-2{
+  /* debug */
+  height: 100px;
+  background-color: purple;
+  /* debug */
+  margin-bottom: 5%;
+}
+.left-div-3{
+  /* debug */
+  height: 180px;
+  background-color: purple;
+  /* debug */
+
+}
+.main-section{
+  /* debug
+  height: 800px;
+  background-color: red;
+  /* debug */
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+article{
+  /* debug */
+  height: 600px;
+  /* debug */
+}
+.arcticle-1{
+  /* debug */
+  background-color: yellow;
+  /* debug */
+}
+.arcticle-2{
+  /* debug */
+  background-color: black;
+  /* debug */
+}
+.arcticle-3{
+  /* debug */
+  background-color: blue;
+  /* debug */
+}
+.arcticle-4{
+  /* debug */
+  background-color: orange;
+  /* debug */
+}
+.right{
+  /* debug
+  height: 400px;
+  background-color: brown;
+   debug */
+  width: 25%;
+  float: left;
+}
+.right-div-1{
+  /* debug */
+  height: 150px;
+  background-color: purple;
+  /* debug */
+  margin-bottom: 5%;
+}
+.right-div-2{
+  /* debug */
+  height: 100px;
+  background-color: purple;
+  /* debug */
+
+}
+footer{
+  /* debug */
+  height: 400px;
+  background-color: lightblue;
+  /* debug */
+  width: 90%;
+  margin: auto;
+}
+.footer-section-1{
+  height: 70%;
+  width: 100%;
+
+}
+.footer-section-1::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer-div-1{
+  /* debug */
+  background-color: blue;
+  /* debug */
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+.footer-div-2{
+  /* debug */
+  background-color: pink;
+  /* debug */
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+.footer-div-3{
+  /* debug */
+  background-color: brown;
+  /* debug */
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+.footer-div-4{
+  /* debug */
+  background-color: dodgerblue;
+  /* debug */
+  width: 55%;
+  height: 100%;
+  float: left;
+}
+.footer-section-2{
+  height: 30%;
+  width: 100%;
+
+}
+.footer-section-2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer-div-5{
+  /* debug */
+  background-color: yellow;
+  /* debug */
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.footer-div-6{
+  /* debug */
+  background-color: maroon;
+  /* debug */
+  width: 50%;
+  height: 100%;
+  float: left;
+}
