@@ -6,6 +6,7 @@
 body{
   background-image: url("immagini/sfondo.png");
   background-size: cover;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 header{
   height: 220px;
@@ -20,13 +21,15 @@ header{
 .title{
   margin-top: calc((190px - 55px)/2);
 }
-
+h3{
+  padding-bottom: 8px;
+}
 
 
 nav{
   color: #999999;
   background-color: #504741;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+
   margin: 0 auto;
   width: 90%;
   align-content: center;
@@ -97,6 +100,10 @@ main{
  padding: 15px 5px;
  color: lime;
 }
+.li-left:hover{
+  background-color: #FFFAF0;
+  border-top: 2px solid grey;
+}
 .left-div-2{
   background-color: white;
   padding: 35px;
@@ -123,6 +130,16 @@ main{
 .arcticle-header{
   padding: 15px;
 }
+h2{
+  padding: 5px 0;
+}
+h2:hover{
+  color: lime;
+  cursor: pointer;
+}
+.arcticle-p1{
+  padding: 5px 0;
+}
 .img-container{
   background-image: url("immagini/winter.jpg");
   background-size: cover;
@@ -130,6 +147,7 @@ main{
 }
 .arcticle-p{
   padding: 15px;
+
 }
 .arcticle-footer{
   padding: 15px;
@@ -138,7 +156,10 @@ main{
   padding-bottom: 25px;
   border-bottom: 3px solid grey;
 }
-
+.span{
+  background-color: #FFFAF0;
+  padding: 2px 0;
+}
 .right{
   width: 25%;
   float: left;
