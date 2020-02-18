@@ -3,30 +3,72 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-image: url("immagini/sfondo.png");
+  background-size: cover;
+}
 header{
-  /* debug */
-  height: 120px;
-  background-color: grey;
-  /* end debug */
+  height: 220px;
   width: 90%;
   margin: 2% auto 0;
-}
-nav{
-  /* debug */
-
-  background-color: green;
-  /* end debug */
-  margin: 0 auto;
-  width: 90%;
+  background-image: url("immagini/banner.jpg");
+  background-size: cover;
+  border: 15px solid white;
+  color: white;
   text-align: center;
 }
-li{
-  display: inline-block;
+.title{
+  margin-top: calc((190px - 55px)/2);
+}
+
+
+
+nav{
+  color: #999999;
+  background-color: #504741;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 90%;
+  align-content: center;
+
+}
+#link3{
+  background-color: rgba(0, 0, 0, .8);
+}
+ul a{
+  display: block;
   padding: 20px 10px;
   font-size: 20px;
+  text-decoration: none;
+  color:#999999;
+  font-size: 15px;
 }
-li:hover{
-  background-color: navy;
+.ul-nav{
+  list-style-type: none;
+}
+
+.li-nav{
+  float: left;
+  display: inline-block;
+  border-right: 1px solid black;
+}
+#last-li-nav{
+  border-right: none;
+}
+
+.li-nav:hover{
+  background-color: rgba(0, 0, 0, .8);
+}
+.ul-div{
+  width: 34%;
+  margin: 0 auto;
+
+}
+
+.ul-div::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 main::after{
   content: "";
@@ -38,91 +80,97 @@ main{
     width: 90%;
 }
 .left{
-  /* debug
-  height: 600px;
-  background-color: pink;
-  debug */
   width: 20%;
   float: left;
 }
+
 .left-div-1{
-  /* debug */
-  height: 350px;
-  background-color: purple;
-  /* debug */
+  background-color: white;
+  padding: 35px;
   margin-bottom: 5%;
 }
+
+.ul-left{
+  list-style-type: none;
+}
+.li-left{
+ padding: 15px 5px;
+ color: lime;
+}
 .left-div-2{
-  /* debug */
-  height: 100px;
-  background-color: purple;
-  /* debug */
+  background-color: white;
+  padding: 35px;
   margin-bottom: 5%;
 }
 .left-div-3{
-  /* debug */
-  height: 180px;
-  background-color: purple;
-  /* debug */
-
+  background-color: white;
+  padding: 35px;
+  margin-bottom: 5%;
 }
+
+
 .main-section{
-  /* debug
-  height: 800px;
-  background-color: red;
-  /* debug */
   width: 45%;
   float: left;
   margin-left: 5%;
   margin-right: 5%;
 }
-article{
-  /* debug */
-  height: 600px;
-  /* debug */
+
+
+.arcticle{
+  background-color: white;
 }
-.arcticle-1{
-  /* debug */
-  background-color: yellow;
-  /* debug */
+.arcticle-header{
+  padding: 15px;
 }
-.arcticle-2{
-  /* debug */
-  background-color: black;
-  /* debug */
+.img-container{
+  background-image: url("immagini/winter.jpg");
+  background-size: cover;
+  height: 40vh;
 }
-.arcticle-3{
-  /* debug */
-  background-color: blue;
-  /* debug */
+.arcticle-p{
+  padding: 15px;
 }
-.arcticle-4{
-  /* debug */
-  background-color: orange;
-  /* debug */
+.arcticle-footer{
+  padding: 15px;
 }
+.af-content{
+  padding-bottom: 25px;
+  border-bottom: 3px solid grey;
+}
+
 .right{
-  /* debug
-  height: 400px;
-  background-color: brown;
-   debug */
   width: 25%;
   float: left;
 }
+
 .right-div-1{
-  /* debug */
-  height: 150px;
-  background-color: purple;
-  /* debug */
+  background-color: white;
+  padding: 35px;
   margin-bottom: 5%;
 }
-.right-div-2{
-  /* debug */
-  height: 100px;
-  background-color: purple;
-  /* debug */
 
+#search{
+  padding: 5px;
+  background-color: #FFFAF0;
 }
+#button{
+  padding: 5px;
+  background-color: #504741;
+}
+#button:hover{
+  background-color: rgba(0, 0, 0, .8);
+}
+.right-div-2{
+  background-color: white;
+  padding: 35px;
+}
+ .right-p{
+  margin-top: 15px;
+  color: lime;
+}
+
+
 footer{
   /* debug */
   height: 400px;
